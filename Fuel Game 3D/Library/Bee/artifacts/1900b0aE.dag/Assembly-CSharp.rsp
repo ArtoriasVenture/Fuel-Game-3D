@@ -357,6 +357,7 @@
 "Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs"
 "Assets/Engine.cs"
 "Assets/EngineFB.cs"
+"Assets/MapBorder.cs"
 "Assets/moveTest.cs"
 "Assets/test.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
