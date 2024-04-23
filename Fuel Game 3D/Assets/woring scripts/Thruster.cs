@@ -8,6 +8,7 @@ public class Thruster : MonoBehaviour
 
     Rigidbody m_Rigidbody;
    
+    //public float maxSpeed = 10;
     public float m_Thrust = 20f;
     public float r_Thrust = 5f;
 
@@ -29,9 +30,9 @@ public class Thruster : MonoBehaviour
         }
         else{          
             ThrustLight.SetActive( false );
-            //if (m_Rigidbody.AddForce != 0)
-                //m_Rigidbody.AddForce(-transform.up * r_Thrust);
+            
         }
+        
     }
 
  
