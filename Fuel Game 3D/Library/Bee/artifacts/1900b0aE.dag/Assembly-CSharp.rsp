@@ -397,9 +397,13 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Thruster(old).cs"
+"Assets/woring scripts/AimBounds.cs"
 "Assets/woring scripts/AvoidColl.cs"
+"Assets/woring scripts/Bullet.cs"
 "Assets/woring scripts/Follow_player.cs"
+"Assets/woring scripts/IsometricAiming.cs"
 "Assets/woring scripts/Main_Menu.cs"
+"Assets/woring scripts/shootTurret.cs"
 "Assets/woring scripts/Thruster.cs"
 -langversion:9.0
 
