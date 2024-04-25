@@ -100,7 +100,7 @@ MonoBehaviour:
   fireTurret: 323
   bulletSpawnPoint: {fileID: 280182444357535612}
   bulletPrefab: {fileID: 6608916083471334523, guid: 52ea55cd76defa1449b18013b2101da1, type: 3}
-  bulletSpeed: 10
+  bulletSpeed: 20
 --- !u!1 &1809424597624026089
 GameObject:
   m_ObjectHideFlags: 0

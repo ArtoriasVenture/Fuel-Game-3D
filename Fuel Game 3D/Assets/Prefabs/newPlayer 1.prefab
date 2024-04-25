@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 5541731637674910209}
   m_Layer: 0
   m_Name: FLout
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 691959193331730942}
   m_Layer: 7
   m_Name: slope back
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 879766173358888672}
   m_Layer: 6
   m_Name: bridgeslope
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 148615818776725423}
   m_Layer: 7
   m_Name: center
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +508,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 8147009923172059493}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 325725540427040722}
   m_Layer: 7
   m_Name: centerFrontBottom
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 4857834375133524972}
   m_Layer: 0
   m_Name: TopFrontE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 4808716545036376218}
   m_Layer: 0
   m_Name: TopBackE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 8149013827028373676}
   m_Layer: 7
   m_Name: RightBackE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1497,7 +1497,7 @@ GameObject:
   - component: {fileID: 5335429809626091552}
   m_Layer: 0
   m_Name: BottomBackE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2262,7 +2262,7 @@ GameObject:
   - component: {fileID: 3774167050607610036}
   m_Layer: 7
   m_Name: LeftBackE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2415,7 +2415,7 @@ GameObject:
   - component: {fileID: 2818965343705569036}
   m_Layer: 0
   m_Name: RightFrontE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2568,7 +2568,7 @@ GameObject:
   - component: {fileID: 9110866987020311373}
   m_Layer: 0
   m_Name: LeftFrontE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2719,7 +2719,7 @@ GameObject:
   - component: {fileID: 5769971484512971018}
   m_Layer: 7
   m_Name: centerBackBottom
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3045,7 +3045,7 @@ GameObject:
   - component: {fileID: 4940327766361340803}
   m_Layer: 0
   m_Name: FRout
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 1808680704176593852}
   m_Layer: 0
   m_Name: bridge
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3333,7 +3333,7 @@ GameObject:
   - component: {fileID: 1586911780957184466}
   m_Layer: 0
   m_Name: BRout
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3367,7 +3367,7 @@ GameObject:
   - component: {fileID: 7432431262509184697}
   m_Layer: 0
   m_Name: BLout
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3552,7 +3552,7 @@ GameObject:
   - component: {fileID: 9108668945714390879}
   m_Layer: 0
   m_Name: command
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3636,7 +3636,7 @@ GameObject:
   - component: {fileID: 4014106018663798010}
   m_Layer: 0
   m_Name: centeral
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3955,7 +3955,7 @@ GameObject:
   - component: {fileID: 2533807023445799714}
   m_Layer: 0
   m_Name: BottomFrontE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4255,7 +4255,7 @@ GameObject:
   - component: {fileID: 8012200438005920104}
   m_Layer: 7
   m_Name: slope f
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4418,6 +4418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engine flames red FB
       objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -4577,6 +4581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engine flames red BT
       objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -4695,6 +4703,10 @@ PrefabInstance:
     - target: {fileID: 4705061674319994670, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705061674319994670, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6591778281285742857, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4837,6 +4849,10 @@ PrefabInstance:
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_Name
       value: Engine flames red LF
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4997,6 +5013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engine flames red BB
       objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -5156,6 +5176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engine flames red FT
       objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -5274,6 +5298,10 @@ PrefabInstance:
     - target: {fileID: 4705061674319994670, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705061674319994670, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6591778281285742857, guid: c9590c123e850e24ab04289bfc68f6b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5416,6 +5444,10 @@ PrefabInstance:
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_Name
       value: Engine flames red RF
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5576,6 +5608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engine flames red RB
       objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -5734,6 +5770,10 @@ PrefabInstance:
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_Name
       value: Engine flames red LB
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
