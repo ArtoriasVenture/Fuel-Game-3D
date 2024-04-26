@@ -405,6 +405,8 @@
 "Assets/woring scripts/Follow_player.cs"
 "Assets/woring scripts/IsometricAiming.cs"
 "Assets/woring scripts/Main_Menu.cs"
+"Assets/woring scripts/Shell.cs"
+"Assets/woring scripts/shootRailgun.cs"
 "Assets/woring scripts/shootTurret.cs"
 "Assets/woring scripts/Thruster.cs"
 -langversion:9.0
