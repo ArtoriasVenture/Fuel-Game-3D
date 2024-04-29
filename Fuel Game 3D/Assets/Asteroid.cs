@@ -11,10 +11,10 @@ public class Asteroid : MonoBehaviour {
     transform.localScale = 0.5f * size * Vector3.one;
 
     // Add movement, bigger asteroids are slower.
-    Rigidbody2D rb = GetComponent<Rigidbody2D>();
-    Vector2 direction = new Vector2(Random.value, Random.value).normalized;
+    Rigidbody rb = GetComponent<Rigidbody>();
+    Vector3 direction = new Vector3(Random.value,0, Random.value).normalized;
     float spawnSpeed = Random.Range(4f - size, 5f - size);
-    rb.AddForce(direction * spawnSpeed, ForceMode2D.Impulse);
+    rb.AddForce(direction * spawnSpeed, ForceMode.Impulse);
 
     // Register creation
     gameManager.asteroidCount++;

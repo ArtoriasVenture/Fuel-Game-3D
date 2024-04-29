@@ -360,6 +360,7 @@
 "Assets/GameManager.cs"
 "Assets/MapBorder.cs"
 "Assets/moveTest.cs"
+"Assets/NewAsteroid.cs"
 "Assets/OutOfBounds.cs"
 "Assets/rotateTurret.cs"
 "Assets/test.cs"
@@ -405,9 +406,11 @@
 "Assets/woring scripts/Follow_player.cs"
 "Assets/woring scripts/IsometricAiming.cs"
 "Assets/woring scripts/Main_Menu.cs"
+"Assets/woring scripts/RandomSpawn.cs"
 "Assets/woring scripts/Shell.cs"
 "Assets/woring scripts/shootRailgun.cs"
 "Assets/woring scripts/shootTurret.cs"
+"Assets/woring scripts/SpawnerMove.cs"
 "Assets/woring scripts/Thruster.cs"
 -langversion:9.0
 
