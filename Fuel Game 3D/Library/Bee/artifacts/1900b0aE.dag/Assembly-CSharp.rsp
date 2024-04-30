@@ -401,6 +401,7 @@
 "Assets/Thruster(old).cs"
 "Assets/woring scripts/AimBounds.cs"
 "Assets/woring scripts/AvoidColl.cs"
+"Assets/woring scripts/AvoidInvis.cs"
 "Assets/woring scripts/BoundsAvoidColl.cs"
 "Assets/woring scripts/Bullet.cs"
 "Assets/woring scripts/Follow_player.cs"

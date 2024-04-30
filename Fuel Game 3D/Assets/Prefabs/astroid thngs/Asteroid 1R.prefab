@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6875958493517307420}
   - component: {fileID: 9022985360003394552}
   - component: {fileID: 3576631608810740329}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: test_asteroid_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,8 @@ GameObject:
   - component: {fileID: 7823044475981275169}
   - component: {fileID: 493325597228375871}
   - component: {fileID: 4894390442048359154}
-  m_Layer: 0
+  - component: {fileID: -3516702759386874630}
+  m_Layer: 11
   m_Name: Asteroid 1R
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -144,7 +145,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &493325597228375871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +175,27 @@ MonoBehaviour:
   b: 5
   size: 3
   armedTime: 120
+--- !u!65 &-3516702759386874630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61511410049230772}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5738685622224427143
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7296354516607724058}
   - component: {fileID: 4398386495264424496}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: test_asteroid_LODGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +269,7 @@ GameObject:
   - component: {fileID: 1324481212876819931}
   - component: {fileID: 6505298009959185448}
   - component: {fileID: 5753042928962042724}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: test_asteroid_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +352,7 @@ GameObject:
   - component: {fileID: 3985442038169959996}
   - component: {fileID: 7393035468366291796}
   - component: {fileID: 7621244739646876716}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: test_asteroid_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
