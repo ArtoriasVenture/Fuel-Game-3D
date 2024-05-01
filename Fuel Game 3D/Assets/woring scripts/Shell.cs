@@ -7,6 +7,7 @@ public class Shell : MonoBehaviour
 {
     public float armedTime = 4;
 
+
     void Awake()
     {
         Destroy(gameObject, armedTime);
@@ -15,6 +16,10 @@ public class Shell : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.TryGetComponent<Health>(out var health))
+        {
+            health.Damage(amount:100);
+            //Destroy(gameObject);
+        }
     }
 }

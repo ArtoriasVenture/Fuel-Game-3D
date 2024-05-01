@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 7682066244801987406}
   - component: {fileID: 4112015672759549002}
   - component: {fileID: 5100400509692761049}
+  - component: {fileID: 3187599428738462791}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Untagged
@@ -287,3 +288,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   armedTime: 3
+--- !u!65 &3187599428738462791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6608916083471334523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.5, z: 2}
+  m_Center: {x: 0, y: 0.5, z: 4.87}

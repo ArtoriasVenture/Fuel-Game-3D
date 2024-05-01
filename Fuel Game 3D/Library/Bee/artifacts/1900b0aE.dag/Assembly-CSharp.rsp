@@ -358,6 +358,7 @@
 "Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs"
 "Assets/clampVel.cs"
 "Assets/GameManager.cs"
+"Assets/Health.cs"
 "Assets/MapBorder.cs"
 "Assets/moveTest.cs"
 "Assets/NewAsteroid.cs"

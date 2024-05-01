@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 566928842453062947}
   - component: {fileID: 4113218692525411122}
   - component: {fileID: -3263080863072586977}
+  - component: {fileID: -5634065345324047108}
   m_Layer: 0
   m_Name: Shell
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2493557359424300633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.83, y: 26.819, z: 12.182}
+  m_LocalPosition: {x: -48.882, y: 26.819, z: 12.182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74,6 +75,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   armedTime: 4
+--- !u!65 &-5634065345324047108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493557359424300633}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.5, z: 1}
+  m_Center: {x: 0.25, y: 0.25, z: 0}
 --- !u!1 &4508220018341575325
 GameObject:
   m_ObjectHideFlags: 0

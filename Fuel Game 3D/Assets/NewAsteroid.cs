@@ -25,5 +25,10 @@ public class NewAsteroid : MonoBehaviour
     float spawnSpeed = Random.Range(4f - size, 5f - size);
     rb.AddForce(direction * spawnSpeed, ForceMode.Impulse);
     }
+
+    void destroyed(Collision collision)
+    {
+        Destroy(gameObject);   
+    }
     
 }
