@@ -30,5 +30,14 @@ public class NewAsteroid : MonoBehaviour
     {
         Destroy(gameObject);   
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.TryGetComponent<Health>(out var health))
+        {
+            health.Damage(amount:100);
+            //Destroy(gameObject);
+        }
+    }
     
 }

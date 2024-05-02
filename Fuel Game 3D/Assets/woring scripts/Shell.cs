@@ -19,7 +19,12 @@ public class Shell : MonoBehaviour
         if (collision.gameObject.TryGetComponent<Health>(out var health))
         {
             health.Damage(amount:100);
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
+
+    //void OnTriggerEnter (Collider other) {
+    //Destroy(gameObject);
+//}
+
 }

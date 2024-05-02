@@ -682,7 +682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 55530472790124086, guid: d4f217d324dd22d44895e7f911b73bda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.08
+      value: 39.13
       objectReference: {fileID: 0}
     - target: {fileID: 55530472790124086, guid: d4f217d324dd22d44895e7f911b73bda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -690,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 55530472790124086, guid: d4f217d324dd22d44895e7f911b73bda, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.49
+      value: -117.15
       objectReference: {fileID: 0}
     - target: {fileID: 55530472790124086, guid: d4f217d324dd22d44895e7f911b73bda, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2459,9 +2459,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1067781458018307978, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1694012893590858896, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
       propertyPath: m_Name
       value: newPlayer_Railgun
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481115197469041608, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617815394348092747, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383868483440933709, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788647046337841673, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4004906937934036503, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2469,7 +2489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4004906937934036503, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -1.78
       objectReference: {fileID: 0}
     - target: {fileID: 4004906937934036503, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2502,6 +2522,10 @@ PrefabInstance:
     - target: {fileID: 4004906937934036503, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343566982385978244, guid: 1b02f56f1563ebb4da46289c5ba907b4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

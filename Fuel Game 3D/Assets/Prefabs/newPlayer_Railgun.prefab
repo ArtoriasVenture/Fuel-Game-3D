@@ -5834,6 +5834,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 243733502799926993}
     m_Modifications:
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -30.878616
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: NaN
+      objectReference: {fileID: 0}
     - target: {fileID: 7201289542523242068, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -5901,6 +5909,14 @@ PrefabInstance:
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 44410.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6327,6 +6343,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5379982947310049417}
     m_Modifications:
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.7023355e+25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.15761126e+27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.1051e-41
+      objectReference: {fileID: 0}
     - target: {fileID: 7201289542523242068, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -6394,6 +6426,14 @@ PrefabInstance:
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -30.878616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6490,6 +6530,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3633634644043683393}
     m_Modifications:
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 15405.641
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 6.409693e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.7645e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439962078344559285, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 8.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7201289542523242068, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -6556,11 +6612,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7201289542523242071, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.05e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -1.7014118e+38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659251595622215536, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 7720091538623475201, guid: a083d2157d800f647bc04fc6883e9086, type: 3}
       propertyPath: m_LocalRotation.w

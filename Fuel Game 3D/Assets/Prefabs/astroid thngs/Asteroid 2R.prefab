@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 11421226}
   - component: {fileID: 3940474056117677275}
   - component: {fileID: -4423694331324890955}
+  - component: {fileID: -5745657961824807594}
   m_Layer: 11
   m_Name: Asteroid 2R
   m_TagString: Enemy
@@ -194,8 +195,42 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.25, y: 2, z: 1.25}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.25, y: 4, z: 1.25}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &-5745657961824807594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969e5fa99843d40449ea1e57e9a1a424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHp: 100
+  Healed:
+    m_PersistentCalls:
+      m_Calls: []
+  Damaged:
+    m_PersistentCalls:
+      m_Calls: []
+  Died:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 141316}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &146874
 GameObject:
   m_ObjectHideFlags: 0
